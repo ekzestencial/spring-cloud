@@ -16,6 +16,8 @@ GET
 Get All Rooms
 
 #How to start
-cd to the parent directory
-mvn clean install
+1)Make clone config to user home directory:
+git clone https://github.com/ekzestencial/cloud-config.git
+2)cd to the parent directory of the project
+3)mvn clean install
 
