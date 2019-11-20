@@ -6,7 +6,16 @@ The project lets to show booking rooms for hotel personnel and consist of the ma
 2)eureka-server - discovery server spring cloud
 3)reservation-business-services - service aggregator(witch use other services) for showing information about booking rooms
 
-How to start
+http://127.0.0.1:8500/
+GET
+/roomReservations/{date}
+Get Room Reservations
+
+GET
+/rooms
+Get All Rooms
+
+#How to start
 cd to the parent directory
 mvn clean install
 
