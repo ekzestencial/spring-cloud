@@ -7,11 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-server" />
-        <module name="reservation-services" />
+        <module name="config-server" />
         <module name="reservation-business-services" />
         <module name="reservation-webapp" />
+        <module name="reservation-services" />
         <module name="proxy-server" />
-        <module name="config-server" />
         <module name="guest-services" />
         <module name="room-services" />
       </profile>
